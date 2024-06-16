@@ -1,0 +1,133 @@
+
+
+.active{
+  color: white;
+  text-decoration: none;
+}
+
+.not-active{
+  color: black;
+  text-decoration: none;
+}
+
+/* Home */
+
+
+.hero{
+  background-image: url("../src/assets/pexels-vincent-ma-janssen-1310847.jpg");
+  background-size: cover;
+  filter:brightness(80%);
+  height: 605px;
+}
+
+.hero-texto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+/* Select pokemon */
+
+.container-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  margin: 2rem;
+}
+
+.container-select{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.687);
+  width: 500px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.select{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.select h2{
+  color: white;
+}
+
+.select-pokemon{
+  padding: .7rem;
+  text-align: center;
+}
+
+.select button{
+  border: none;
+  border-radius: 5px;
+  width: fit-content;
+  padding: .5rem 1rem;
+  margin: auto;
+  background-color: red;
+  color: white;
+}
+
+
+/* Detalles pokemon */
+
+.container-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.card {
+  width: 500px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.card-header {
+  background-color: #f8d030; 
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em; 
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+}
+.card-header img {
+  width: 80px; 
+  vertical-align: middle;
+  margin-right: 20px; 
+}
+.card-body {
+  padding: 40px; 
+  text-align: center;
+}
+.card-body img {
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #333;
+}
+.card-info {
+  margin: 20px 0; 
+}
+.card-info div {
+  margin: 10px 0; 
+  font-size: 1.5em; 
+}
+.card-attack {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 20px; 
+  border-radius: 5px;
+  margin-top: 20px; 
+  font-size: 1.5em; 
+}
